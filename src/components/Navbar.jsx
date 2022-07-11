@@ -5,7 +5,7 @@ import {
 } from 'antd';
 import { Link } from 'react-router-dom';
 import {
-	HomeOutlined, MoneyCollectionOutlined, BulbOutlined, FundOutlined, MenuOutlined,
+	HomeOutlined, MoneyCollectOutlined, BulbOutlined, FundOutlined, MenuOutlined,
 } from '@ant-design/icons';
 
 import Icon from '../images/cryptocurrency.png';
@@ -20,6 +20,20 @@ const Navbar = () => {
 					<Link to="/"> Cryptoverse </Link>
 				</Title>
 			</div>
+			<Menu theme="dark">
+				<Menu.Item icon={<HomeOutlined />}>
+					<Link to="/">Home</Link>
+				</Menu.Item>
+				<Menu.Item icon={<FundOutlined />}>
+					<Link to="/Cryptocurrencies">Cryptocurrencies</Link>
+				</Menu.Item>
+				<Menu.Item icon={<MoneyCollectOutlined />}>
+					<Link to="/Exchanges">Exchanges</Link>
+				</Menu.Item>
+				<Menu.Item icon={<BulbOutlined />}>
+					<Link to="/News">News</Link>
+				</Menu.Item>
+			</Menu>
 		</div>
 	);
 };
