@@ -1,7 +1,9 @@
 /* eslint-disable import/named */
 /* eslint-disable no-unused-vars */
 import React from 'react';
-import { Routes, Route, Link } from 'react-router-dom';
+import {
+	Routes, Route, Link, BrowserRouter,
+} from 'react-router-dom';
 import { Layout, Typography, Space } from 'antd';
 import styles from './App.css';
 
@@ -18,15 +20,17 @@ const App = () => {
 			</div>
 			<div className="main">
 				<Layout>
+
 					<div className="routes">
 						<Routes>
-							<Route path='/' element={<Homepage />} />
 							<Route path='/exchanges' element={<Exchanges />} />
 							<Route path='/cryptocurrencies' element={<Cryptocurrencies />} />
 							<Route path='/crypto/:coinId' element={<CryptoDetails />} />
 							<Route path='/news' element={<News />} />
+							<Route path='/' element={<Homepage />} />
 						</Routes>
 					</div>
+
 				</Layout>
 				<div className="footer">
 					<Title level={5} style={{ color: 'white', textAlign: 'center' }}>

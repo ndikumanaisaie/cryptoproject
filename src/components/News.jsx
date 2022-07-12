@@ -40,7 +40,7 @@ const News = ({ simplified }) => {
 							<Option value="Cryptocurrency">Cryptocurrency</Option>
 							{
 								cryptoList?.data?.coins
-									.map((coin) => <Option value={coin.name}>{coin.name}</Option>)
+									.map((coin) => <Option key={coin.uuid} value={coin.name}>{coin.name}</Option>)
 							}
 
 						</Select>
