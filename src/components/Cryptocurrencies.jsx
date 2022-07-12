@@ -9,7 +9,7 @@ import {
 import { useGetCryptosQuery } from '../services/cryptoApi.js';
 
 const CryptoCurrencies = (simplified) => {
-	const count = simplified ? 10 : 50;
+	const count = simplified ? 50 : 100;
 	const { data: cryptoList, isFetching } = useGetCryptosQuery(count);
 	const [cryptos, setCryptos] = useState([]);
 	const [searchTerm, setSearchTerm] = useState('');
@@ -25,7 +25,7 @@ const CryptoCurrencies = (simplified) => {
 	return (
 		<>
 			{
-				!simplified && (
+				simplified && (
 					<div className="search-crypto">
 						<Input placeholder="Search Cryptocurrency" onChange={(e) => setSearchTerm(e.target.value)} />
 					</div>
