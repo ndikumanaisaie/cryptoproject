@@ -1,3 +1,4 @@
+/* eslint-disable import/no-cycle */
 /* eslint-disable import/prefer-default-export */
 export { default as Navbar } from './Navbar.jsx';
 export { default as Homepage } from './Homepage.jsx';

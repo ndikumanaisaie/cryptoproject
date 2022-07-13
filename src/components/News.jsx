@@ -7,6 +7,7 @@ import moment from 'moment';
 
 import { useGetCryptosNewsQuery } from '../services/cryptoNewsApi.js';
 import { useGetCryptosQuery } from '../services/cryptoApi.js';
+import Loader from './Loader.jsx';
 
 const { Text, Title } = Typography;
 const { option } = Select;
@@ -20,7 +21,7 @@ const News = ({ simplified }) => {
 	} = useGetCryptosNewsQuery({ newsCategory, count: simplified ? 6 : 12 });
 	const { data: cryptoList } = useGetCryptosQuery(100);
 
-	if (isFetching) return 'Loading';
+	if (isFetching) return <Loader />;
 
 	return (
 		<Row gutter={[24, 24]}>
