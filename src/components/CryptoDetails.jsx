@@ -22,9 +22,7 @@ const CryptoDetails = () => {
 	const [timePeriod, setTimePeriod] = useState('7d');
 	const { data, isFetching } = useGetCryptosDetailsQuery(coinId);
 	const cryptoDetails = data?.data?.coin;
-
-	console.log(cryptoDetails);
-
+	const time = ['3h', '24h', '7d', '30d', '1y', '3m', '3y', '5y'];
 	const stats = [
 		{ title: 'Price to USD', value: `$ ${cryptoDetails?.price && millify(cryptoDetails?.price)}`, icon: <DollarCircleOutlined /> },
 		{ title: 'Rank', value: cryptoDetails?.rank, icon: <NumberOutlined /> },
@@ -43,7 +41,26 @@ const CryptoDetails = () => {
 
 	if (isFetching) return 'Loading...';
 	return (
-		<div>CryptoDetails {coinId}</div>
+		<Col className="coin-detail-container">
+			<Col className="coin-heading-container">
+				<Title level={2} className="coin-name">
+					{cryptoDetails.name} ({cryptoDetails.symbol}) Price
+				</Title>
+				<p>
+					{cryptoDetails.name} Live Price in US dollar.
+          View value statistics, Supply and market cap
+				</p>
+				<Select
+					defaultValue="7d"
+					className="select-timeperiod"
+					onChange={(value) => setTimePeriod(value)}
+				>
+					{
+						time.map((date) => <Option key={date}>{date}</Option>)
+					}
+				</Select>
+			</Col>
+		</Col>
 	);
 };
 
