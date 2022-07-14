@@ -16,7 +16,6 @@ const Navbar = () => {
 	const [activeMenu, setActiveMenu] = useState(true);
 	const [screenSize, setScreenSize] = useState(null);
 
-	const handleResize = () => setScreenSize(window.innerWidth);
 	useEffect(() => {
 		const handleResize = () => setScreenSize(window.innerWidth);
 

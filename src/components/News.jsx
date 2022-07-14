@@ -10,7 +10,7 @@ import { useGetCryptosQuery } from '../services/cryptoApi.js';
 import Loader from './Loader.jsx';
 
 const { Text, Title } = Typography;
-const { option } = Select;
+const { Option } = Select;
 
 const demoImge = 'http://coinrevolution.com/wp-content/uploads/2020/06/cryptonews.jpg';
 
