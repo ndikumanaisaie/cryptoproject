@@ -1,18 +1,17 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-## Filmpire
+## Cryptoverse
 
-> This website is designed entirely in react using material UI. It is a feetness application that lets users search for different exercises based on body parts. It also show similar exercises and display their youtude videos.
+> Designed entirely in react using Ant Design. It is a cryptocurrency website that display the latest statistics of most popular cryptocurrencies. Users can view the top 10 cryptocurrencies their exchanges rate and all the news related to them. This application is powered by RAPID API.
 
 ## Below is the screenshot of my work
-![Feetness App](https://github.com/ndikumanaisaie/feetness_app/blob/setup_ui/src/assets/images/shot.png)
+![Crypot Project](https://github.com/ndikumanaisaie/cryptoproject/blob/navigation/src/assets/images/shot.png)
 
 ## Built with
-- HTML
-- CSS
 - Javascript
 - React
-- Material UI
+- Redux Toolkit
+- Ant Design
 - RapidApi API
 - gitflow
 
@@ -26,17 +25,17 @@
 - LinkedIn: [ndikumana-isaie-21166273](https://www.linkedin.com/in/ndikumana-isaie-21166273/)
 
 ## Link to URL on browser
-- [Fitness App](https://ndikumanaisaie.github.io/feetness_app/dist)
+- [cryptoproject](https://ndikumanaisaie/cryptoproject/dist)
 
 ## Link to URL on gitHub
-- [Filmpire](https://github.com/ndikumanaisaie/feetness_app.git)
+- [cryptoproject](https://github.com/ndikumanaisaie/cryptoproject.git)
 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
 ## Setup
-clone: run `git clone https://github.com/ndikumanaisaie/feetness_app.git`
+clone: run `git clone https://ndikumanaisaie/cryptoproject.git`
 Move to cloned folder: run git cd feetness_app.
 
 ## Install
