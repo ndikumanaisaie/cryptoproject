@@ -25,7 +25,7 @@
 - LinkedIn: [ndikumana-isaie-21166273](https://www.linkedin.com/in/ndikumana-isaie-21166273/)
 
 ## Link to URL on browser
-- [cryptoproject](https://ndikumanaisaie/cryptoproject/dist)
+- [cryptoproject](https://ndikumana-cryptocurrency.netlify.app/)
 
 ## Link to URL on gitHub
 - [cryptoproject](https://github.com/ndikumanaisaie/cryptoproject.git)
