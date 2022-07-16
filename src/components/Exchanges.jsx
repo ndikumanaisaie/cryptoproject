@@ -34,7 +34,7 @@ const Exchanges = () => {
 								key={exchange.uuid}
 								showArrow={false}
 								header={(
-									<Row key={exchange.uuid} style={{ width: '998px' }}>
+									<Row key={exchange.uuid} className="exchange-list">
 										<Col span={6}>
 											<Text><strong>{exchange.rank}.</strong></Text>
 											<Avatar className="exchange-image" src={exchange.iconUrl} />
