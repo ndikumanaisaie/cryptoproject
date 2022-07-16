@@ -5,7 +5,7 @@
 > Designed entirely in react using Ant Design. It is a cryptocurrency website that display the latest statistics of most popular cryptocurrencies. Users can view the top 10 cryptocurrencies their exchanges rate and all the news related to them. This application is powered by RAPID API.
 
 ## Below is the screenshot of my work
-![Crypot Project](https://github.com/ndikumanaisaie/cryptoproject/blob/develop/src/assets/images/shot_1.png)
+![Crypot Project](https://github.com/ndikumanaisaie/cryptoproject/blob/develop/src/images/shot_1.png)
 
 ## Built with
 - Javascript
