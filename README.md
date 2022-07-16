@@ -28,7 +28,7 @@
 - [cryptoproject](https://ndikumanaisaie/cryptoproject/dist)
 
 ## Link to URL on gitHub
-- [cryptoproject](https://github.com/ndikumanaisaie/cryptoproject.git)
+- [cryptoproject](https://ndikumanaisaie.github.io/cryptoproject/dist)
 
 ## Getting Started
 
