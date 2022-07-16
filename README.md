@@ -25,10 +25,10 @@
 - LinkedIn: [ndikumana-isaie-21166273](https://www.linkedin.com/in/ndikumana-isaie-21166273/)
 
 ## Link to URL on browser
-- [cryptoproject](https://ndikumanaisaie/cryptoproject/dist)
+- [cryptoproject](https://ndikumanaisaie.github.io/cryptoproject/dist)
 
 ## Link to URL on gitHub
-- [cryptoproject](https://ndikumanaisaie.github.io/cryptoproject/dist)
+- [cryptoproject](https://ndikumanaisaie/cryptoproject.git)
 
 ## Getting Started
 
