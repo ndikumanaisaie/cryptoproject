@@ -61,7 +61,7 @@ const News = ({ simplified }) => {
 								</div>
 								<p>
 									{
-										news.description > 100
+										news.description.length > 100
 											? `${news.description.substring(0, 100)} ...`
 											: news.description
 									}
